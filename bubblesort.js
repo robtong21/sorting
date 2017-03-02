@@ -5,7 +5,7 @@ function bubbleSort(arr) {
     if (arr.length === 1) {
         return arr;
     }
-    let holder, newLength;
+    let holder;
     for (var j=arr.length; j>0; j--) {
         // debugger
         for (var i=0; i<arr.length; i++) {
